@@ -42,7 +42,7 @@ RUN apk add --no-cache \
     iptables \
     iproute2
 
-COPY --from=builder /go/bin/* /usr/local/bin/
+COPY --from=builder /usr/local/bin/* /usr/local/bin/
 
 LABEL org.opencontainers.image.title="tailscale" \
     org.opencontainers.image.description="tailscale in Docker" \ 
