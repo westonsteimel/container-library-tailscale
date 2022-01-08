@@ -1,5 +1,5 @@
 ARG VERSION="main"
-ARG REVISION="7d9b1de3aaa1f9d8ca1e40f8ea6d589fc3c5d821"
+ARG REVISION="c5243562d78e42d69704abbcb7c8f86ae77cfb85"
 
 FROM golang:alpine AS builder
 
