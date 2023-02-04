@@ -1,5 +1,5 @@
-ARG VERSION="1.36.0"
-ARG REVISION="ab998de9899da026e1a623a5973143f0d3ea52f7"
+ARG VERSION="null"
+ARG REVISION="null"
 
 FROM golang:alpine AS builder
 
